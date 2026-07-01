@@ -12,7 +12,7 @@ It enables users to analyze sales performance, customer ratings, order trends, f
 
 > Add your dashboard screenshot inside the **Images** folder and update the path below.
 
-![Swiggy Dashboard](Images/dashboard.png)
+![Swiggy Dashboard]swiggy snapshot.jpeg
 
 ---
 
