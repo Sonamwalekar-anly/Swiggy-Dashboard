@@ -1,58 +1,37 @@
-# 🍔 Swiggy Sales Dashboard | Power BI Project
+# 🍔 Swiggy Sales Dashboard | Microsoft Excel
 
 ## 📌 Project Overview
 
-This project presents an interactive **Swiggy Sales Dashboard** built in **Microsoft Power BI** to analyze food delivery sales performance across different cities, states, food categories, and time periods.
+This project is an interactive **Swiggy Sales Dashboard** developed entirely in **Microsoft Excel**. The dashboard transforms raw sales data into meaningful business insights using Pivot Tables, Pivot Charts, Slicers, and Excel's visualization features.
 
-The dashboard provides business insights into sales trends, customer ratings, order volumes, average order value, and regional performance, helping stakeholders make data-driven decisions.
+It enables users to analyze sales performance, customer ratings, order trends, food categories, and regional performance through an interactive and user-friendly dashboard.
 
 ---
 
-## 📊 Dashboard Preview
+## 📷 Dashboard Preview
 
-> *(Upload the dashboard screenshot in your repository and replace the image path below.)*
+> Add your dashboard screenshot inside the **Images** folder and update the path below.
 
-![Dashboard](dashboard.png)
+![Swiggy Dashboard](Images/dashboard.png)
 
 ---
 
 # 🎯 Business Problem
 
-Food delivery companies generate millions of transactions every month. Business managers need an efficient way to monitor:
+Food delivery businesses generate large volumes of transactional data every day. Analyzing this data manually is time-consuming and inefficient.
 
-- Total Sales
-- Customer Ratings
-- Order Volume
-- State-wise Performance
-- Food Category Sales
-- Monthly & Daily Trends
-- Top Performing Cities
+This dashboard helps answer important business questions such as:
 
-This dashboard solves these challenges through an interactive visualization.
-
----
-
-# 📁 Dataset
-
-The dataset contains sales records including:
-
-- Order ID
-- Order Date
-- Customer Rating
-- Restaurant Name
-- Food Category
-- Veg / Non-Veg
-- City
-- State
-- Order Amount
-- Quantity
-- Order Status
+- Which states generate the highest sales?
+- Which cities contribute the most revenue?
+- How do sales change over time?
+- What is the average customer rating?
+- What is the average order value?
+- How do Veg and Non-Veg sales compare?
 
 ---
 
-# 📈 Key KPIs
-
-The dashboard tracks the following business metrics:
+# 📊 Dashboard KPIs
 
 | KPI | Value |
 |------|---------|
@@ -60,133 +39,119 @@ The dashboard tracks the following business metrics:
 | ⭐ Average Rating | 4.34 |
 | 🛒 Total Orders | 197.43K |
 | 💵 Average Order Value | ₹268.51 |
-| 🌟 Total Ratings | 5.59 Million |
+| 🌟 Rating Count | 5.59 Million |
 
 ---
 
-# 📊 Dashboard Features
+# 📈 Dashboard Features
 
 ### 📅 Monthly Sales Trend
-- Compare monthly sales performance.
-- Identify high and low revenue months.
-
----
+- Analyze monthly revenue performance.
+- Identify seasonal sales patterns.
 
 ### 📆 Daily Sales Trend
-- Analyze weekday-wise sales.
+- Compare sales across weekdays.
 - Identify peak ordering days.
 
----
-
 ### 🍕 Sales by Food Type
-- Veg vs Non-Veg Sales Distribution.
-- Percentage contribution of each category.
+- Compare Veg and Non-Veg sales.
+- Visualized using a Doughnut Chart.
 
----
-
-### 🗺️ Sales by State
-- Interactive map visualization.
-- Identify top revenue generating states.
-
----
+### 🗺️ State-wise Sales Analysis
+- Interactive Map Chart showing sales distribution across India.
 
 ### 🏙️ Top 5 Cities by Sales
-- Highest performing cities.
-- Sales comparison using bar chart.
+- Identify the highest revenue-generating cities.
 
----
+### 📊 Weekly Sales Trend
+- Analyze weekly sales performance.
 
-### 📈 Weekly Sales Trend
-- Weekly order analysis.
-- Detect seasonal sales fluctuations.
+### 📋 Quarterly Summary
+Displays:
 
----
-
-### 📋 Quarterly Performance Table
-
-Shows:
-
-- Quarterly Sales
-- Average Ratings
+- Total Sales
+- Average Rating
 - Total Orders
 
+for each quarter.
+
 ---
 
-# 🎛️ Interactive Filters (Slicers)
+# 🎛️ Interactive Filters
 
-Users can dynamically filter dashboard by:
+Users can filter the dashboard using Excel Slicers based on:
 
 - Month
 - Food Category
 - Restaurant Name
 
-This enables detailed business analysis with just a few clicks.
+These filters allow dynamic exploration of the data.
 
 ---
 
-# 🛠️ Tools & Technologies
+# 🛠️ Tools & Features Used
 
-- Microsoft Power BI
-- Power Query
-- DAX
-- Data Modeling
-- Excel / CSV Dataset
+- Microsoft Excel
+- Pivot Tables
+- Pivot Charts
+- Slicers
+- Map Chart
+- Conditional Formatting
+- Excel Formulas
+- Dashboard Design
+- Data Cleaning
+- Data Analysis
 
 ---
 
-# 📚 Power BI Skills Demonstrated
+# 📚 Excel Skills Demonstrated
 
 - Data Cleaning
-- Data Transformation
-- Data Modeling
-- DAX Measures
+- Data Preparation
+- Pivot Tables
+- Pivot Charts
+- Slicers
+- Interactive Dashboard Design
 - KPI Cards
-- Map Visualization
-- Donut Charts
-- Line Charts
-- Column Charts
-- Bar Charts
-- Matrix/Table Visual
-- Interactive Slicers
-- Dashboard Design
-- Business Intelligence Reporting
+- Data Visualization
+- Business Reporting
+- Trend Analysis
 
 ---
 
 # 📊 Business Insights
 
-Some valuable insights generated from this dashboard include:
+The dashboard helps identify:
 
-- Identify best performing states.
-- Find top revenue generating cities.
-- Compare Veg vs Non-Veg sales.
-- Analyze monthly sales growth.
-- Identify peak order days.
-- Monitor customer satisfaction through ratings.
-- Track average order value.
-- Compare quarterly business performance.
+- Top-performing states by sales
+- Highest revenue-generating cities
+- Monthly and weekly sales trends
+- Customer satisfaction through ratings
+- Average spending per order
+- Sales distribution between Veg and Non-Veg food
+- Quarterly business performance
 
 ---
 
-# 🚀 Project Workflow
+# 🔄 Project Workflow
 
 ```
-Dataset
+Raw Dataset
       │
       ▼
 Data Cleaning
       │
       ▼
-Power Query
+Pivot Tables
       │
       ▼
-Data Modeling
+Pivot Charts
       │
       ▼
-DAX Calculations
+Slicers
       │
       ▼
-Dashboard Development
+Interactive Dashboard
       │
       ▼
 Business Insights
@@ -194,52 +159,35 @@ Business Insights
 
 ---
 
-# 📌 Key Learnings
-
-During this project, I learned:
-
-- Building professional Power BI dashboards
-- Creating dynamic KPIs
-- Designing interactive reports
-- Using DAX for business calculations
-- Creating geographical visualizations
-- Building user-friendly dashboards
-- Converting raw data into actionable insights
-
----
-
 # 📂 Repository Structure
 
 ```
-Swiggy-Sales-Dashboard/
+Swiggy-Sales-Dashboard-Excel/
 │
 ├── Dataset/
-│   └── Swiggy_Sales.csv
+│   └── Swiggy_Sales.xlsx
 │
 ├── Dashboard/
-│   └── Swiggy Sales Dashboard.pbix
+│   └── Swiggy Sales Dashboard.xlsx
 │
 ├── Images/
-│   └── Dashboard.png
+│   └── dashboard.png
 │
-├── README.md
+└── README.md
 ```
 
 ---
 
-# ⭐ Future Improvements
+# 🚀 Future Improvements
 
-- Add Customer Segmentation
+- Add Profit Analysis
 - Delivery Time Analysis
-- Profit Analysis
+- Customer Segmentation
+- Sales Forecasting
 - Restaurant Performance Dashboard
-- Forecasting using Power BI
-- Customer Retention Analysis
+- Dynamic KPI Comparisons
 
 ---
-
-
-
 ---
 
 ## ⭐ If you found this project useful, don't forget to Star ⭐ this repository!# Swiggy-Dashboard
